@@ -1,5 +1,11 @@
 package rollup
 
+/*
+This file is used to import all the necessary dependencies for the rollup package
+so that the go mod tidy command does not remove them from the go.mod file.
+This can be removed once the rollup package has its own dependencies.
+*/
+
 import (
 	_ "github.com/cometbft/cometbft/abci/types"
 	_ "github.com/cosmos/cosmos-sdk/types"

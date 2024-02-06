@@ -1,3 +1,4 @@
+//nolint:revive
 package rollup
 
 /*
@@ -11,4 +12,5 @@ import (
 	_ "github.com/cosmos/cosmos-sdk/types"
 	_ "github.com/cosmos/ibc-go/v8/modules/core/types"
 	_ "github.com/ethereum-optimism/optimism/op-node/rollup"
+	_ "github.com/ethereum/go-ethereum/common"
 )
